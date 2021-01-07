@@ -18,8 +18,16 @@ Hierna moeten we een aantal tools in Jenkins instellen:
 
 Kies **Manage Jenkins** > **Global Tool Configuration**.
 
-Als eerste de JDK. Kies de knop **Add JDK** en voer als naam `JDK11` in. Verwijder de Oracle installer (gebruik de rode knop **Delete installer**), uncheck de checkbox **Install automatically** en er verschijnt nu een invoerveld voor **JAVA_HOME**. Geef hier het pad naar de geïnstalleerde JDK in (onder Windows is dit waarschijnlijk `C:\Program Files\AdoptOpenJDK\jdk-11.0.6.10-hotspot`).
+Je hebt een aantal paden nodig, de volgende commando's laten die zien:
 
-Nu moeten we **Git** installeren als tool, klik op **Add Git** en voer als naam `Git` in. Het veld _Path to Git executable_ kan als waarde `git.exe` krijgen.
+```bash
+which mvn
+which git
+echo $JAVA_HOME
+```
 
-Als laatste nog Maven. Klik op **Add Maven** en geef als naam `Maven`. Uncheck de checkbox **Install automatically** en voer het pad naar de geïnstalleerde `maven` directory in.
+Als eerste de JDK. Kies de knop **Add JDK** en voer als naam `JDK11` in. Verwijder de Oracle installer (gebruik de rode knop **Delete installer**), uncheck de checkbox **Install automatically** en er verschijnt nu een invoerveld voor **JAVA_HOME**. Geef hier het pad naar de geïnstalleerde JDK in.
+
+Nu moeten we **Git** installeren als tool, klik op **Add Git** en voer als naam `Git` in. Het veld _Path to Git executable_ kan als waarde `/usr/local/bin/git` krijgen.
+
+Als laatste nog Maven. Klik op **Add Maven** en geef als naam `Maven`. Uncheck de checkbox **Install automatically** en voer het pad naar de geïnstalleerde `maven` directory in (waarschijnlijk `/usr/local/bin/mvn`.
