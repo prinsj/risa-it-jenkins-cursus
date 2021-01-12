@@ -6,7 +6,7 @@ De volgende componenten dienen geïnstalleerd te worden:
 
 Je dient een Java JDK geïnstalleerd te hebben, zowel versie 8 als 11 zijn goed. Als je die al hebt hoef je niets te doen en kun je doorgaan met de volgende stap.
 
-Download de [AdoptOpenJDK 11](https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.9.1%2B1/OpenJDK11U-jdk_x64_windows_hotspot_11.0.9.1_1.ms) en voer het gedownloade programma uit.
+Download de laatste release van [AdoptOpenJDK 11 releases](https://github.com/AdoptOpenJDK/openjdk11-binaries) en voer het gedownloade programma uit.
 
 ## Git
 
