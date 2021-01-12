@@ -13,7 +13,7 @@ Om een indruk een een gevoel te krijgen van Jenkins zijn er [een aantal opdracht
 
 Hieronder volgen enkele links naar sites waar je meer informatie over Jenkins kan vinden:
 
-* [Jenkinns documentatie website](https://www.jenkins.io/doc/book/)
+* [Jenkins documentatie website](https://www.jenkins.io/doc/book/)
 * [Jenkins community](https://www.jenkins.io/participate/)
 * [Jenkins plugins](https://plugins.jenkins.io/)
 
