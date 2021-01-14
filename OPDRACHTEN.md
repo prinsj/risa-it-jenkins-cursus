@@ -7,7 +7,7 @@ Hieronder volgen een aantal opdrachten om je wegwijs te maken in Jenkins. De nad
 Ga naar [de Jenkins cursus voor Risa-IT](https://github.com/prinsj/risa-it-jenkins-cursus) op GitHub en download de code. Gebruik hiervoor de groene knop met Code rechtsboven en kies `Download ZIP`. Pak het bestand uit in een directory. De bestanden zullen nu in een directory `risa-it-jenkins-cursus-main` staan. We gaan nu van de directory een `git`-repository maken:
 
 ```
-cd risa-it-jenkns-cursus-main
+cd risa-it-jenkins-cursus-main
 git init
 git add .
 git commit --message 'Eerste commit' .
@@ -106,7 +106,7 @@ Ga naar het project en geef de volgende commando's:
 
 ```bash
 git status
-git checkout branch-1
+git checkout -b branch-1
 git status
 ```
 
